@@ -1,0 +1,39 @@
+ul li {
+    list-style: none;
+}
+li:first-child a{
+    color: green;
+}
+li:nth-child(even) {
+    font-size: 20px;
+}
+li:nth-child(3n+1) {
+    background: yellow;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+}
+a:before{
+    content: '-';
+}
+:first-child h3 {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+div + h3 + p {
+    color: green;
+}
+:nth-child(6) {
+    color: red;
+}
+:last-child div + h3 {
+    color: black;
+}
+ .yellow {
+     color: yellow;
+}
